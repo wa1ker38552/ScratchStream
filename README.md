@@ -20,4 +20,7 @@ The last step is just to get our desktop as an image using the `dxcam` library a
 <br><br>
 On the Scratch side, you simply need a program to detect when the last chunk has changed and then combine all the cloud variables and split them into segments of 9. Next, just take the square root of the length of the segments and iterate over the colors to draw them out. 
 
-![image](https://github.com/wa1ker38552/ScratchStream/assets/100868154/6639d763-274f-4183-9454-3a3fb787f81d)
+**Make sure the project is shared**
+
+(Host your own version)
+![image](https://github.com/wa1ker38552/ScratchStream/assets/100868154/3e009eab-5e76-4c54-a02c-4592b90cbe74)
