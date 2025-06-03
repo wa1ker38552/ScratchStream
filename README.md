@@ -26,7 +26,7 @@ On the Scratch side, you simply need a program to detect when the last chunk has
 ![image](https://github.com/wa1ker38552/ScratchStream/assets/100868154/3e009eab-5e76-4c54-a02c-4592b90cbe74)
 
 
-**V2**
+**V2** <br>
 After a couple years, I randomly remembered this project and decided to improve it. Instead of limiting myself to 10 variables, I opted to send multiple batches of 10 variables worth of data. I just used the first variable as an indicator to the current batch and how many batches there are. As Scratch recieved the batches, it added them all to 1 cumulative variable and then rendered the data from that after receiving everything. It can theoretically now render images of ANY size but it will take an awful while to do so if the image is big. It takes ~ 1 second to send 10 chunks so if you render a 100x100 image, that would take around 400 chunks or 40 seconds to render. 
 ![image](https://github.com/user-attachments/assets/c39831c9-da45-489c-86ff-d73fe4877940)
 ![image](https://github.com/user-attachments/assets/92ebf4af-8527-42bc-96e5-b5e99cd89714)
